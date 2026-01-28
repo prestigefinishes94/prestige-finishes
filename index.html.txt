@@ -1,0 +1,73 @@
+ 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Prestige Finishes Painting & Decorating Norwich</title>
+  <meta name="description" content="Professional painting and decorating services in Norwich. Interior and exterior painting. Free quotes."/>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; background:#f9fafb; color:#1f2937; }
+    header { background:#fff; padding:20px; box-shadow:0 2px 6px rgba(0,0,0,.05); }
+    .container { max-width:1100px; margin:auto; padding:20px; }
+    h1,h2,h3 { margin-top:0; }
+    .btn { display:inline-block; background:#000; color:#fff; padding:12px 20px; border-radius:10px; text-decoration:none; }
+    .grid { display:grid; gap:20px; }
+    .grid-3 { grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); }
+    .card { background:#fff; padding:20px; border-radius:14px; box-shadow:0 2px 8px rgba(0,0,0,.05); }
+    footer { background:#fff; text-align:center; padding:20px; font-size:14px; }
+    input, textarea { width:100%; padding:12px; border-radius:8px; border:1px solid #d1d5db; }
+    button { width:100%; padding:14px; border:none; border-radius:10px; background:#000; color:#fff; font-size:16px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <h1>Prestige Finishes Painting & Decorating Norwich</h1>
+    <a class="btn" href="#contact">Free Estimate</a>
+  </div>
+</header>
+
+<section class="container">
+  <h2>Professional Painters & Decorators in Norwich</h2>
+  <p>High-quality interior and exterior painting services for homes in Norwich and surrounding areas.</p>
+</section>
+
+<section class="container grid grid-3">
+  <div class="card"><h3>Interior Painting</h3><p>Walls, ceilings, woodwork and finishes.</p></div>
+  <div class="card"><h3>Exterior Painting</h3><p>Protect and refresh your home’s exterior.</p></div>
+  <div class="card"><h3>Preparation & Repairs</h3><p>Filling, sanding and surface prep.</p></div>
+</section>
+
+<section class="container">
+  <h2>Before & After Work</h2>
+  <p>Add your project photos here later.</p>
+</section>
+
+<section class="container">
+  <h2>Customer Reviews</h2>
+  <p>⭐⭐⭐⭐⭐ Reliable, tidy and excellent results.</p>
+</section>
+
+<section id="contact" class="container">
+  <h2>Request a Free Estimate</h2>
+  <p>Call <strong>07735 135737</strong> or send a message below.</p>
+
+  <form name="contact" method="POST" data-netlify="true">
+    <input type="hidden" name="form-name" value="contact">
+    <p><input name="name" placeholder="Your name" required></p>
+    <p><input name="contact" placeholder="Phone or Email" required></p>
+    <p><textarea name="message" placeholder="Tell us about your project" required></textarea></p>
+    <p><button type="submit">Send Request</button></p>
+  </form>
+</section>
+
+<footer>
+  © 2026 Prestige Finishes Painting & Decorating Norwich<br>
+  Phone: 07735 135737 · Email: prestigefinishes94@gmail.com
+</footer>
+
+</body>
+</html>
