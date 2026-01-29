@@ -10,7 +10,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Prestige Finishes Painting & Decorating Norwich</title>
   <meta name="description" content="Professional painting and decorating services in Norwich. Interior and exterior painting. Free quotes."/>
-  <style>.hero {
+  <style>..hero {
+  background-image: url("images/header.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 1px 1px 4px black;
+}
   background-image: url("images/header.jpg");
   background-size: cover;
   background-position: center;
@@ -56,8 +67,34 @@
 </section>
 
 <section class="container">
-  <h2>Before & After Work</h2>
-  <p>Add your project photos here later.</p>
+  <h2>Before & After <section class="gallery">
+  <h2>Before & After</h2>
+
+  <div class="pair">
+    <img src="images/before1.jpg" alt="Before painting">
+    <img src="images/after1.jpg" alt="After painting">
+  </div>
+
+  <div class="pair">
+    <img src="images/before2.jpg" alt="Before painting">
+    <img src="images/after2.jpg" alt="After painting">
+  </div>
+</section>
+  <style></style>..gallery {
+  padding: 20px;
+  text-align: center;
+}
+
+.pair {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.pair img {
+  width: 50%;
+  border-radius: 8px;
+}
 </section>
 
 <section class="container">
